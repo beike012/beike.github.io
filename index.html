@@ -1,14 +1,30 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="no-js">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+<meta charset="UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+<meta name="viewport" content="width=device-width, initial-scale=1"> 
+<title>贝壳的首页</title>
+
+<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+<!--必要样式-->
+<link rel="stylesheet" type="text/css" href="css/component.css" />
+
+<!--[if IE]>
+<script src="js/html5.js"></script>
+<![endif]-->
 </head>
 <body>
-    <h1>这是一个寂寞的天,下着大雨</h1>
-    <p>why?!</p>
-    <b>伤心的雨~~</b>
-</body>
+		<div class="container demo-1">
+			<div class="content">
+				<div id="large-header" class="large-header">
+					<canvas id="demo-canvas"></canvas>
+					<h1 class="main-title">Connect <span class="thin">Three</span></h1>
+				</div>
+			</div>
+		</div><!-- /container -->
+		<script src="js/TweenLite.min.js"></script>
+		<script src="js/EasePack.min.js"></script>
+		<script src="js/bgAnimation.js"></script>
+	</body>
 </html>
