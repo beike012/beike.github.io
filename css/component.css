@@ -7,18 +7,7 @@
 	background-size: cover;
 	background-position: center center;
 	z-index: 1;
-}
-
-.demo-1 .large-header video { 
-	position: fixed;
-	left: 50%;
-	top: 50%;
-	transform: translate(-50%,-50%);
-	min-width: 100%; 
-	min-height: 100%;
-	width: auto; 
-	height: auto; 
-	z-index: -100;
+	background-image: url('../img/demo-1-bg.jpg');
 }
 
 .main-title {
